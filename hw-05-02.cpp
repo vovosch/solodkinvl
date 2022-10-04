@@ -17,7 +17,7 @@ void solve() {
 	for (double x = a; x - b < delta / 10; x += delta) {
 
 		std::cout << x << " ";
-		
+
 		for (int i = 0; i < INF; i++) {
 			
 			tmp = std::pow(x, i) * sin(i * PI_4);
@@ -32,7 +32,7 @@ void solve() {
 
 int main() {
 
-	std::ios_base::sync_with_stdio(0);
+    std::ios_base::sync_with_stdio(0);
     std::cin.tie(0);
 
     freopen("input.in", "r", stdin);

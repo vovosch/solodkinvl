@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 
 void solve() {
 
@@ -14,20 +15,22 @@ void solve() {
 	double tmp;
 	double y;
 
-	for (double x = a; x - b < delta / 10; x += delta) {
+	std::cout << std::fixed << std::setprecision(6);
 
-		std::cout << x << " ";
+	for (double x = a; x < b + delta; x += delta) {
+
+		std::cout << x << '\t';
 		s = 0;
 
-		for (int i = 0; i < INF; i++) {
+		for (int i = 1; i < INF; i++) {
 			
 			tmp = std::pow(x, i) * sin(i * PI_4);
-			if (tmp < EPS)
+			if (fabs(tmp) < EPS)
 				break;
 			s += tmp;
 		}
 		y = (x * sin(PI_4)) / (1 - 2 * x * cos(PI_4));
-		std::cout << s << " " << y << '\n';
+		std::cout << s << '\t' << y << '\n';
 	}
 }
 

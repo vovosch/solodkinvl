@@ -18,20 +18,22 @@ void solve() {
     double tmp;
     double y;
 
+    std::cout << std::fixed << std::setprecision(6);
+
     for (double x = a; x - b < delta / 10; x += delta) {
 
-        std::cout << x << " ";
+        std::cout << x << '\t';
         s = 0;
 
         for (int i = 0; i < INF; i++) {
 
             tmp = std::pow(-1., i) * (std::pow(x, 2 * i) / fact(2 * i));
-            if (tmp < EPS)
+            if (fabs(tmp) < EPS)
                 break;
             s += tmp; 
         }
         y = cos(x);
-        std::cout << s << " " << y << '\n';
+        std::cout << s << '\t' << y << '\n';
     }
 }
 

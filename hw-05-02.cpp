@@ -17,6 +17,7 @@ void solve() {
 	for (double x = a; x - b < delta / 10; x += delta) {
 
 		std::cout << x << " ";
+		s = 0;
 
 		for (int i = 0; i < INF; i++) {
 			

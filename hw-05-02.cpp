@@ -6,12 +6,15 @@ void solve() {
 
 	const double EPS = 1e-3;
 	const double PI_4 = acos(-1) / 4;
+	const double SIN_PI_4 = sin(PI_4);
+	const double COS_PI_4 = cos(PI_4);
 	const int INF = 1e9;
+	const double SIN[4] = {0, SIN_PI_4, 1, -SIN_PI_4};
 
 	double s = 0;
 	double a = 0;
 	double b = 1;
-	double delta = 0.01;
+	double delta = 0.05;
 	double tmp;
 	double y;
 
@@ -21,15 +24,18 @@ void solve() {
 
 		std::cout << x << '\t';
 		s = 0;
+		double curX = x;
 
 		for (int i = 1; i < INF; i++) {
 			
-			tmp = std::pow(x, i) * sin(i * PI_4);
-			if (fabs(tmp) < EPS)
+			tmp = curX * sin(i * PI_4);
+			//std::cout << tmp << '\n';
+			if (std::abs(tmp) < EPS && i % 4 != 0)
 				break;
 			s += tmp;
+			curX *= x;
 		}
-		y = (x * sin(PI_4)) / (1 - 2 * x * cos(PI_4));
+		y = (x * SIN_PI_4) / (1 - 2 * x * COS_PI_4);
 		std::cout << s << '\t' << y << '\n';
 	}
 }

@@ -28,7 +28,7 @@ void solve() {
         for (int i = 0; i < INF; i++) {
 
             tmp = std::pow(-1., i) * (std::pow(x, 2 * i) / fact(2 * i));
-            if (fabs(tmp) < EPS)
+            if (std::abs(tmp) < EPS)
                 break;
             s += tmp; 
         }

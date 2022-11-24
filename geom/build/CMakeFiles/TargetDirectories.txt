@@ -1,0 +1,3 @@
+C:/Users/297/Documents/olymp/polevoy/geom/build/CMakeFiles/geom.dir
+C:/Users/297/Documents/olymp/polevoy/geom/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/297/Documents/olymp/polevoy/geom/build/CMakeFiles/ZERO_CHECK.dir

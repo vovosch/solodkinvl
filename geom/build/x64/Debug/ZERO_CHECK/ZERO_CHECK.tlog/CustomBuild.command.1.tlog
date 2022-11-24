@@ -1,0 +1,10 @@
+^C:\USERS\297\DOCUMENTS\OLYMP\POLEVOY\GEOM\BUILD\CMAKEFILES\572EF1841E829A6501823FDEA18D7FB6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/297/Documents/olymp/polevoy/geom -BC:/Users/297/Documents/olymp/polevoy/geom/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/297/Documents/olymp/polevoy/geom/build/geom.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

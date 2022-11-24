@@ -1,0 +1,10 @@
+^C:\USERS\297\DOCUMENTS\OLYMP\POLEVOY\GEOM\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/297/Documents/olymp/polevoy/geom -BC:/Users/297/Documents/olymp/polevoy/geom/build --check-stamp-file C:/Users/297/Documents/olymp/polevoy/geom/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

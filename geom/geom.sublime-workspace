@@ -1,0 +1,913 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add_",
+				"add_library"
+			],
+			[
+				"add",
+				"add_library"
+			],
+			[
+				"doc",
+				"doctest"
+			],
+			[
+				"inc",
+				"inc\t#include \"…\""
+			],
+			[
+				"pol",
+				"pol_geometry"
+			],
+			[
+				"i",
+				"inc\t#include \"…\""
+			],
+			[
+				"ena",
+				"enable_testing"
+			],
+			[
+				"COMMAD",
+				"CMAKE_COMMAND"
+			],
+			[
+				"N",
+				"NAME"
+			],
+			[
+				"do",
+				"double"
+			],
+			[
+				"R",
+				"Rpol2D"
+			],
+			[
+				"con",
+				"convertToDec"
+			],
+			[
+				"ata",
+				"atan2"
+			],
+			[
+				"comma",
+				"CMAKE_COMMAND"
+			],
+			[
+				"Re",
+				"Rdec2D"
+			],
+			[
+				"re",
+				"Rdec2D"
+			],
+			[
+				"str",
+				"struct"
+			],
+			[
+				"ios",
+				"iosfwd"
+			],
+			[
+				"in",
+				"inc"
+			],
+			[
+				"be",
+				"beginend"
+			],
+			[
+				"st",
+				"string"
+			],
+			[
+				"sti",
+				"string"
+			],
+			[
+				"v",
+				"vector"
+			],
+			[
+				"new",
+				"polevoynew"
+			],
+			[
+				"ne",
+				"polevoynew"
+			],
+			[
+				"a",
+				"alphabet"
+			],
+			[
+				"ter",
+				"terA"
+			],
+			[
+				"te",
+				"terA"
+			],
+			[
+				"io",
+				"iomanip"
+			],
+			[
+				"PI",
+				"PI_4"
+			],
+			[
+				"get",
+				"getPerim"
+			],
+			[
+				"ge",
+				"getSquare"
+			],
+			[
+				"sq",
+				"squre"
+			],
+			[
+				"vec",
+				"vector"
+			],
+			[
+				"stru",
+				"struct"
+			],
+			[
+				"ope",
+				"operator-"
+			],
+			[
+				"o",
+				"operator--"
+			],
+			[
+				"time",
+				"timechrono"
+			],
+			[
+				"b",
+				"begin2"
+			],
+			[
+				"ti",
+				"timeshort"
+			],
+			[
+				"inr",
+				"intersect"
+			],
+			[
+				"for",
+				"forv"
+			],
+			[
+				"p",
+				"pInt"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "CMakeLists.txt",
+			"settings":
+			{
+				"buffer_size": 132,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFoAAAAAAAAAWgAAAAAAAAAVAAAAYWRkX3N1YmRpcmVjdG9yeShzcmMp",
+					"AQAAAAAAAAABAAAAbwAAAAAAAABaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAFoAAAAAAAAAWwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWgAAAAAAAABaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": "add_"
+					},
+					"BAAAAFsAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABdAAAAAAAAAAAAAABdAAAAAAAAAF4AAAAAAAAAAAAAAF4AAAAAAAAAXwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWwAAAAAAAABbAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert_completion",
+					{
+						"completion": "add_library",
+						"format": "snippet",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "add_library"
+					},
+					"AgAAAFsAAAAAAAAAWwAAAAAAAAAEAAAAYWRkX1sAAAAAAAAAZgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXwAAAAAAAABfAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAGYAAAAAAAAAaAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZgAAAAAAAABmAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": "geom"
+					},
+					"BAAAAGcAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABpAAAAAAAAAAAAAABpAAAAAAAAAGoAAAAAAAAAAAAAAGoAAAAAAAAAawAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZwAAAAAAAABnAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": " DTA"
+					},
+					"BAAAAGsAAAAAAAAAbAAAAAAAAAAAAAAAbAAAAAAAAABtAAAAAAAAAAAAAABtAAAAAAAAAG4AAAAAAAAAAAAAAG4AAAAAAAAAbwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAawAAAAAAAABrAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "TIC"
+					},
+					"AwAAAG8AAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAABxAAAAAAAAAAAAAABxAAAAAAAAAHIAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbwAAAAAAAABvAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAHIAAAAAAAAAcwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcgAAAAAAAAByAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					7,
+					"left_delete",
+					null,
+					"BwAAAHIAAAAAAAAAcgAAAAAAAAABAAAAIHEAAAAAAAAAcQAAAAAAAAABAAAAQ3AAAAAAAAAAcAAAAAAAAAABAAAASW8AAAAAAAAAbwAAAAAAAAABAAAAVG4AAAAAAAAAbgAAAAAAAAABAAAAQW0AAAAAAAAAbQAAAAAAAAABAAAAVGwAAAAAAAAAbAAAAAAAAAABAAAARA",
+					"AQAAAAAAAAABAAAAcwAAAAAAAABzAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "STA"
+					},
+					"AwAAAGwAAAAAAAAAbQAAAAAAAAAAAAAAbQAAAAAAAABuAAAAAAAAAAAAAABuAAAAAAAAAG8AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbAAAAAAAAABsAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": "TIC"
+					},
+					"AwAAAG8AAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAABxAAAAAAAAAAAAAABxAAAAAAAAAHIAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbwAAAAAAAABvAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAHIAAAAAAAAAcwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcgAAAAAAAAByAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": "geom.cpp"
+					},
+					"CAAAAHMAAAAAAAAAdAAAAAAAAAAAAAAAdAAAAAAAAAB1AAAAAAAAAAAAAAB1AAAAAAAAAHYAAAAAAAAAAAAAAHYAAAAAAAAAdwAAAAAAAAAAAAAAdwAAAAAAAAB4AAAAAAAAAAAAAAB4AAAAAAAAAHkAAAAAAAAAAAAAAHkAAAAAAAAAegAAAAAAAAAAAAAAegAAAAAAAAB7AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcwAAAAAAAABzAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					29,
+					1,
+					"insert",
+					{
+						"characters": " geom"
+					},
+					"BQAAAHsAAAAAAAAAfAAAAAAAAAAAAAAAfAAAAAAAAAB9AAAAAAAAAAAAAAB9AAAAAAAAAH4AAAAAAAAAAAAAAH4AAAAAAAAAfwAAAAAAAAAAAAAAfwAAAAAAAACAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAewAAAAAAAAB7AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					1,
+					"insert",
+					{
+						"characters": ".h"
+					},
+					"AgAAAIAAAAAAAAAAgQAAAAAAAAAAAAAAgQAAAAAAAACCAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "geom.cpp",
+			"settings":
+			{
+				"buffer_size": 4097,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAGBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "static"
+					},
+					"BgAAAEUAAAAAAAAARgAAAAAAAAAAAAAARgAAAAAAAABHAAAAAAAAAAAAAABHAAAAAAAAAEgAAAAAAAAAAAAAAEgAAAAAAAAASQAAAAAAAAAAAAAASQAAAAAAAABKAAAAAAAAAAAAAABKAAAAAAAAAEsAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARQAAAAAAAABFAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAEsAAAAAAAAATAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASwAAAAAAAABLAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": "static"
+					},
+					"BgAAAGIAAAAAAAAAYwAAAAAAAAAAAAAAYwAAAAAAAABkAAAAAAAAAAAAAABkAAAAAAAAAGUAAAAAAAAAAAAAAGUAAAAAAAAAZgAAAAAAAAAAAAAAZgAAAAAAAABnAAAAAAAAAAAAAABnAAAAAAAAAGgAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYgAAAAAAAABiAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAGgAAAAAAAAAaQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAaAAAAAAAAABoAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": "geom.h"
+					},
+					"BwAAADEAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAyAAAAAAAAABAAAABwb2xfZ2VvbWV0cnkuaHBwMgAAAAAAAAAzAAAAAAAAAAAAAAAzAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAANQAAAAAAAAAAAAAANQAAAAAAAAA2AAAAAAAAAAAAAAA2AAAAAAAAADcAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQQAAAAAAAAAxAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": "pp"
+					},
+					"AgAAADcAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA5AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANwAAAAAAAAA3AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					7,
+					"left_delete",
+					null,
+					"BwAAAEMAAAAAAAAAQwAAAAAAAAABAAAAIEIAAAAAAAAAQgAAAAAAAAABAAAAY0EAAAAAAAAAQQAAAAAAAAABAAAAaUAAAAAAAAAAQAAAAAAAAAABAAAAdD8AAAAAAAAAPwAAAAAAAAABAAAAYT4AAAAAAAAAPgAAAAAAAAABAAAAdD0AAAAAAAAAPQAAAAAAAAABAAAAcw",
+					"AQAAAAAAAAABAAAARAAAAAAAAABEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					7,
+					"left_delete",
+					null,
+					"BwAAAFkAAAAAAAAAWQAAAAAAAAABAAAAIFgAAAAAAAAAWAAAAAAAAAABAAAAY1cAAAAAAAAAVwAAAAAAAAABAAAAaVYAAAAAAAAAVgAAAAAAAAABAAAAdFUAAAAAAAAAVQAAAAAAAAABAAAAYVQAAAAAAAAAVAAAAAAAAAABAAAAdFMAAAAAAAAAUwAAAAAAAAABAAAAcw",
+					"AQAAAAAAAAABAAAAWgAAAAAAAABaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					2,
+					"left_delete",
+					null,
+					"AgAAAAYBAAAAAAAABgEAAAAAAAAOAAAACmludCBtYWluKCkge30FAQAAAAAAAAUBAAAAAAAAAQAAAAo",
+					"AQAAAAAAAAABAAAAFAEAAAAAAAAGAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGMBAAAAAAAAYwEAAAAAAAABAAAAYQ",
+					"AQAAAAAAAAABAAAAZAEAAAAAAABkAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					34,
+					1,
+					"insert",
+					{
+						"characters": "b"
+					},
+					"AQAAAGMBAAAAAAAAZAEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYwEAAAAAAABjAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					40,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHMBAAAAAAAAcwEAAAAAAAABAAAAYQ",
+					"AQAAAAAAAAABAAAAdAEAAAAAAAB0AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					41,
+					1,
+					"insert",
+					{
+						"characters": "b"
+					},
+					"AQAAAHMBAAAAAAAAdAEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcwEAAAAAAABzAQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "geom.hpp",
+			"redo_stack":
+			[
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "------"
+					},
+					"BgAAAEkHAAAAAAAASQcAAAAAAAABAAAALUgHAAAAAAAASAcAAAAAAAABAAAALUcHAAAAAAAARwcAAAAAAAABAAAALUYHAAAAAAAARgcAAAAAAAABAAAALUUHAAAAAAAARQcAAAAAAAABAAAALUQHAAAAAAAARAcAAAAAAAABAAAALQ",
+					"AQAAAAAAAAABAAAASgcAAAAAAABKBwAAAAAAAAAAAAAAAPC/"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 1860,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAARAcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "geom (Windows)",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"geom (Windows)",
+					""
+				],
+				[
+					"geom (Windows)",
+					"ALL_BUILD"
+				],
+				[
+					"geom (Windows)",
+					"geom"
+				],
+				[
+					"geom (Windows)",
+					"ZERO_CHECK"
+				],
+				[
+					"geom (Windows)",
+					"src/hello"
+				]
+			],
+			[
+				"geom (Windows)",
+				"geom"
+			]
+		]
+	],
+	"build_varint": "geom",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Cma",
+				"CMakeBuilder: New Project"
+			],
+			[
+				"Cmake",
+				"CMakeBuilder: New Project"
+			],
+			[
+				"Snippet: ",
+				"Snippet: main()"
+			],
+			[
+				"Snippet:",
+				"Snippet: newfile"
+			],
+			[
+				"Snippet: new",
+				"Snippet: newfile"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 138.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/297/Documents/olymp/polevoy/geom"
+	],
+	"file_history":
+	[
+		"/C/Users/297/Documents/olymp/polevoy/Polevoy_Geometry/tests/doctest.h",
+		"/C/Users/297/Documents/olymp/polevoy/Polevoy_Geometry/tests/CMakeLists.txt",
+		"/C/Users/297/Documents/olymp/polevoy/Polevoy_Geometry/Tests/CMakeLists.txt",
+		"/C/Users/297/Documents/olymp/polevoy/Polevoy_Geometry/Tests/testSumDec.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/Polevoy_Geometry/CMakeLists.txt",
+		"/C/Users/297/Documents/dosboxlogo/ASM/1.asm",
+		"/D/8 класс/57-8.py",
+		"/D/Хеши.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/Polevoy_Geometry/src/pol_geometry.hpp",
+		"/C/Users/297/Documents/olymp/polevoy/1698C.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1744D.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1699B.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/kjsd.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/579A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1744C.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1669D.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1690D.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1675C.cpp",
+		"/C/Users/297/Documents/olymp/geometry/geometry.hpp",
+		"/C/Users/297/Documents/olymp/2.cpp",
+		"/C/Users/297/Documents/olymp/1.cpp",
+		"/C/Users/297/Documents/olymp/4.cpp",
+		"/C/Users/297/Documents/olymp/5.cpp",
+		"/C/Users/297/Documents/olymp/6.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1100C.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/136A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/4A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1608B.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1671A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1649A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1701A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1692C.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/915A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1585A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1501A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1585A,cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1512B.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1678A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/935B.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1404A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1521C.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1670B.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1703C.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1330A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1717B.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1721B.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/978A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/276A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1352A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/263A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1717A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/217A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/617A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1559A.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/1734B.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/136B.cpp",
+		"/C/Users/297/Documents/olymp/input.in",
+		"/C/Users/297/Documents/olymp/polevoy/hw-05-03.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/hw-05-02.cpp",
+		"/C/Users/297/Documents/olymp/polevoy/hw-05-01.cpp",
+		"/C/Users/297/Documents/Paradox Interactive/Victoria II/HFM/save games/Matabele1848_05_01.v2",
+		"/C/Users/297/Documents/olymp/3.py",
+		"/C/Users/297/Documents/olymp/2.py",
+		"/C/Users/297/Documents/olymp/1.py",
+		"/C/Users/297/AppData/Roaming/Sublime Text/Packages/User/polevoynew.sublime-snippet",
+		"/C/Users/297/AppData/Roaming/Sublime Text/Packages/User/newfile.sublime-snippet",
+		"/C/Users/297/Documents/olymp/polevoy/hw05-01.cpp",
+		"/C/Users/297/Documents/olymp/5.exe",
+		"/C/Users/297/Documents/olymp/geometry/Vector.hpp",
+		"/C/Users/297/Documents/olymp/geometry/Point.hpp",
+		"/C/Users/297/Downloads/IMG_0212 — копия (2) (1).JPG",
+		"/C/Users/297/Documents/Paradox Interactive/Victoria II/HFM/save games/The_French Empire1936_01_01.v2",
+		"/C/Users/297/Documents/olymp/Geometry.hpp",
+		"/C/Users/297/AppData/Roaming/Sublime Text/Packages/User/timechrono.sublime-snippet",
+		"/C/Users/297/AppData/Roaming/Sublime Text/Packages/User/timeshort.sublime-snippet",
+		"/C/Users/297/AppData/Roaming/Sublime Text/Packages/User/copyline.sublime-macro",
+		"/C/Users/297/Documents/olymp/3.cpp",
+		"/C/Users/297/AppData/Roaming/Sublime Text/Packages/User/mpSort.sublime-snippet",
+		"/C/Users/297/Documents/song parser/1.py",
+		"/C/Users/297/AppData/Roaming/Sublime Text/Packages/User/competetivecpp.sublime-build",
+		"/C/Users/297/Documents/olymp/output.out",
+		"/C/Users/297/AppData/Roaming/Sublime Text/Packages/User/competetivecpp"
+	],
+	"find":
+	{
+		"height": 134.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "CMakeLists.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CMakeEditor/CMakeEditor.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "geom.cpp",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4097,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								372,
+								372
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "geom.hpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1860,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1860,
+								1860
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 715.333333333,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 134.0
+	},
+	"input":
+	{
+		"height": 134.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 138.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "geom (Windows)",
+	"project": "geom.sublime-project",
+	"replace":
+	{
+		"height": 264.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 184.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

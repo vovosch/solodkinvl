@@ -10,11 +10,12 @@ const double EPS = 2 * std::numeric_limits<double>::min();
 
 Rdec2D noAcseleration(const Rdec2D& delta) { return Rdec2D(0, 0); }
 
-//Rdec2D simpleAcseleraiotn(const Rdec2D& delta) { return ((1 / Norm(delta))); }
+Rdec2D simpleAcseleraiotnCat(const Rdec2D& delta) { return (delta / Norm(delta)) * ((1 / Norm(delta))); }
+Rdec2D simpleAcseleraiotnMouse(const Rdec2D& delta) { return -(delta / Norm(delta)) * ((1 / Norm(delta))); }
 
-Rdec2D& updateVel(Rdec2D& vel, double acs, double t) {
+Rdec2D& updateVel(Rdec2D& vel, Rdec2D& acs) {
 
-	vel += (acs * t);
+	vel += acs;
 	return vel;
 }
 
@@ -28,7 +29,7 @@ int model(const double& dt, const double& catStrikeDist,
 	//std::cout << rCat << " " << rMouse << '\n';
 	//std::cout << velCat << " " << velMouse << '\n';
 
-	for (double t = 0; t < (double)1e4; t += dt) {
+	for (double t = 0; t < (double)1e7; t += dt) {
 
 		Rdec2D deltaR = (rMouse - rCat);
 		//std::cout << "deltaR: " << deltaR << '\n';
@@ -47,17 +48,20 @@ int model(const double& dt, const double& catStrikeDist,
 
 		rMouse += (velMouse * dt);
 		rCat += (velCat * dt);
+
+		velMouse = updateVel(velMouse, dt * acsMouse(deltaR));
+		velCat = updateVel(velCat, dt * acsCat(deltaR));
 		velCat = (deltaR / Norm(deltaR)) * Norm(velCat);
 
-		//std::cout << "rCat: " << rCat << '\n';
-		//std::cout << "rMouse: " << rMouse << '\n';
+		//std::cout << rCat << " " << rMouse << '\n';
+		//std::cout << velCat << " " << velMouse << '\n';
 
 		prvDeltaR = deltaR;
 	}
 	return -1;
 }
 
-// model(dt, catStrikeDist, rCat, rMouse, velCat, velMouse, &acseleration)
+// model(dt, catStrikeDist, rCat, rMouse, velCat, velMouse, &acsCat, &acsMouse)
 
 
 TEST_CASE("straigth line & no acseleration") {
@@ -88,7 +92,7 @@ TEST_CASE("straigth line & no acseleration") {
 				&noAcseleration) == 3);
 }
 
-// model(dt, catStrikeDist, rCat, rMouse, velCat, velMouse, &acseleration)
+// model(dt, catStrikeDist, rCat, rMouse, velCat, velMouse, &acsCat, &acsMouse)
 
 TEST_CASE("diagonal line & no acseleration") {
 
@@ -118,5 +122,32 @@ TEST_CASE("diagonal line & no acseleration") {
 				&noAcseleration) == 3);
 }
 
-// model(dt, catStrikeDist, rCat, rMouse, velCat, velMouse, &acseleration)
+// model(dt, catStrikeDist, rCat, rMouse, velCat, velMouse, &acsCat, &acsMouse)
 
+TEST_CASE("straigth line & acseleration") {
+
+	const double dt = 0.1;
+	const double catStrikeDist = 1;
+
+	CHECK(model(dt, 1,
+				Rdec2D(0, -5),
+				Rdec2D(0, -2),
+				Rdec2D(0, 2),
+				Rdec2D(0, 2),
+				&simpleAcseleraiotnCat,
+				&simpleAcseleraiotnMouse) == 1);
+	CHECK(model(dt, 1,
+				Rdec2D(0, -2),
+			    Rdec2D(0, -5),
+			    Rdec2D(0, -1),
+			    Rdec2D(0, -2),
+			    &simpleAcseleraiotnCat,
+			    &simpleAcseleraiotnMouse) == 2);
+	CHECK(model(dt, 1,
+				Rdec2D(0, -5),
+				Rdec2D(0, -3),
+				Rdec2D(0, 1),
+				Rdec2D(0, 1),
+				&simpleAcseleraiotnCat,
+				&noAcseleration) == 3);
+}

@@ -16,7 +16,7 @@ int model(const double& dt, const double& catStrikeDist,
 
 		Rdec2D deltaR = (rMouse - rCat);
 
-		if (Norm(rMouse - Rdec2D(0, 0)) < EPS && Norm(rCat - Rdec2D(0, 0)) < EPS) {
+		if ((rMouse.x < EPS && rMouse.y < EPS) && (rCat.x < EPS && rCat.y < EPS)) {
 			std::cout << dist << '\n';
 			return 0;
 		}

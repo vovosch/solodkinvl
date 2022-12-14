@@ -56,11 +56,11 @@ Rdec2D findVelCat(const double& catStrikeDist, Rdec2D& rCat, Rdec2D& rMouse, Rde
 		res = model(dt, catStrikeDist, rCat, rMouse, mVel, velMouse);
 		if (res > 0) {
 			lVel = mVel;
-			std::cout << 1 << " ";
+			//std::cout << 1 << " ";
 		}
 		else {
 			rVel = mVel;
-			std::cout << -1 << " ";
+			//std::cout << -1 << " ";
 		}
 
 		dt = std::max(dt / 10, (double)1e-9);
